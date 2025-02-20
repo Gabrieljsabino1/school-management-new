@@ -37,10 +37,9 @@ export default {
     },
   },
   created() {
-    // Load data from local storage or an API
-    this.student = { id: this.$route.params.id, name: 'Nome do Aluno' };  // Replace with actual data
-    this.exams = [];  // Replace with actual data
-    this.subjects = [];  // Replace with actual data
+    this.student = { id: this.$route.params.id, name: 'Nome do Aluno' };
+    this.exams = [];
+    this.subjects = [];
   },
   methods: {
     getSubjectName(id) {
